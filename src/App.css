@@ -1,0 +1,61 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 16px;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #f9f9f9; /* Light background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+  cursor: pointer;
+}
+
+.checkbox .icon {
+  font-size: 18px; /* Icon size */
+  color: #000; /* Black circle */
+}
+.line_through{
+  text-decoration: line-through;
+}
+.task div span {
+  margin: 0 5px;
+}
+
+.task div .icon {
+  font-size: 18px; /* Trash icon size */
+  color: #000; /* Black trash icon */
+  cursor: pointer;
+}
